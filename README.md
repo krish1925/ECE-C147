@@ -1,37 +1,17 @@
-# Coursework for ECE C147 (Neural Networks and Deep Learning)
+# Neural Networks and Deep Learning (UCLA ECE C147)
 
-This repository contains coursework for the class ECE C147 (Neural Networks and Deep Learning). There are 5 homework folders, each containing codes for the assignments. 
+Coursework from UCLA's ECE C147. Every model here is implemented from scratch in NumPy — no deep learning frameworks — covering the path from linear models to convolutional networks.
 
-## Homework Structure
+## Contents
 
-- **Homework 1: Linear Regression**
-  - Code
-  - Written Homework
+| Module | Topic | Includes |
+|---|---|---|
+| [01-linear-regression](01-linear-regression) | Linear regression | Code, written derivations |
+| [02-knn-svm-softmax](02-knn-svm-softmax) | k-nearest neighbors, SVM, softmax classifier | Code |
+| [03-backprop-neural-nets](03-backprop-neural-nets) | Backpropagation and fully connected networks | Code, written derivations |
+| [04-batchnorm-dropout](04-batchnorm-dropout) | Batch normalization and dropout | Code |
+| [05-cnns](05-cnns) | Convolutional neural networks | Code |
 
-- **Homework 2: K-nearest Neighbors, SVM, and Softmax Classifier**
-  - Code
-  - Written Homework
+## Topics
 
-- **Homework 3: Backpropagation and Neural Networks**
-  - Code
-  - Written Homework
-
-- **Homework 4: Batch Normalization and Dropout**
-  - Code
-
-- **Homework 5: Convolutional Neural Networks**
-  - Code
-
-## Course Description
-ECE C147 focuses on neural networks and deep learning techniques. The course covers various topics, including but not limited to:
-
-- Linear Regression
-- K-nearest Neighbors
-- Support Vector Machines (SVM)
-- Softmax Classifier
-- Backpropagation
-- Batch Normalization
-- Dropout
-- Convolutional Neural Networks (CNNs)
-
-All assignments require implementing the networks from scratch.
+Linear regression · k-NN · SVMs · softmax classification · backpropagation · batch normalization · dropout · CNNs
